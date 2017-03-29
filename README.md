@@ -1,2 +1,12 @@
-# appletech_sample_job
-Test job for Apple Tech
+#Требования
+PHP > 5.6 с включенным cUrl, MySQL/MariaDB/PgSQL любой актуальной версии
+#Порядок установки
+1. Установить зависимости - `composer install`
+2. Создать базу данных - `php yii migrate`
+3. Отредактировать данные для подключения к базе данных в файле `config/common.php`
+#Данные для проверки
+1 задание. Запустить - `php yii console\boy @position` где @position позиция точки B
+2 задание. Запустить - `php yii console\alfa @brand` где @brand название бренда
+3 задание. Данные для входа 
+Логин "admin" - пароль "admin" для входа администратора
+Логин "user" - пароль "user" для обычного авторизованного пользователя

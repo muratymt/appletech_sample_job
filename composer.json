@@ -1,0 +1,33 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Murat Yeskendirov",
+      "email": "murat.yeskendirov@yandex.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.10",
+    "yiisoft/yii2-bootstrap": "dev-master",
+    "sunra/php-simple-html-dom-parser": "1.5.2"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "dev-master",
+    "yiisoft/yii2-gii": "dev-master",
+    "yiisoft/yii2-faker": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "APPLE\\": "./src"
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
